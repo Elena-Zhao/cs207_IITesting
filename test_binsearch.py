@@ -1,7 +1,7 @@
 
 from pytest import raises
 from binsearch import binary_search
-
+import numpy as np
 def test_normal_case():
     assert binary_search(list(range(10)), 5) == 5
 
